@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: testdb
+    database: testdb
+    schema: test
+    tables:
+      - name: bike
+      - name: weather
