@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: test  # Logical name for the source
+    database: testdb     # Snowflake database where the source data resides
+    schema: test  # Snowflake schema within the specified database
+    tables:
+      - name: weather     #  A table within the specified schema
+        description: "something about weather" # Optional description for the table
+      - name: bike  # Another table within the specified schema
+        description: "go biking"
